@@ -3,9 +3,35 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.32014.148
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Factory", "Factory", "{340D531E-3A82-4859-89DE-E11897E3115A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CarFactory", "CarFactory\CarFactory.csproj", "{ABA82F90-9472-4C39-88D7-7B2345BFDF00}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Singleton", "Singleton", "{857F3A02-9DED-4A34-A6D2-12D0816DAA8F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SingletonDP", "SingletonDP\SingletonDP.csproj", "{18DC3E3A-8C41-457F-BC18-31D3FA4052F1}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{ABA82F90-9472-4C39-88D7-7B2345BFDF00}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ABA82F90-9472-4C39-88D7-7B2345BFDF00}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ABA82F90-9472-4C39-88D7-7B2345BFDF00}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ABA82F90-9472-4C39-88D7-7B2345BFDF00}.Release|Any CPU.Build.0 = Release|Any CPU
+		{18DC3E3A-8C41-457F-BC18-31D3FA4052F1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{18DC3E3A-8C41-457F-BC18-31D3FA4052F1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{18DC3E3A-8C41-457F-BC18-31D3FA4052F1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{18DC3E3A-8C41-457F-BC18-31D3FA4052F1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{ABA82F90-9472-4C39-88D7-7B2345BFDF00} = {340D531E-3A82-4859-89DE-E11897E3115A}
+		{18DC3E3A-8C41-457F-BC18-31D3FA4052F1} = {857F3A02-9DED-4A34-A6D2-12D0816DAA8F}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {6ECBAE14-1D5A-4AA5-BEB6-96047388628D}
