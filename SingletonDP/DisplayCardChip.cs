@@ -6,7 +6,7 @@ namespace SingletonDP
 {
     public class DisplayCardChip
     {
-        public static DisplayCardChip instance;
+        private static DisplayCardChip instance;
         private DisplayCardChip()
         {
 
