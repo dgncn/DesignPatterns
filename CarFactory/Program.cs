@@ -6,7 +6,9 @@ namespace CarFactory
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Console.WriteLine("Üretilecek araba tipini seç: Sedan için S, Hatchback için H yazınız");
+            string carType = Console.ReadLine();
+            Console.WriteLine(MyCarFactory.CreateCar(carType)?.Type ?? string.Empty);
         }
     }
 }
