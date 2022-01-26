@@ -17,6 +17,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LockExample", "LockExample\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TicketLockExample", "TicketLockExample\TicketLockExample.csproj", "{FE577832-7699-4C19-8780-FD0C5405F5A0}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "AbstractFactory", "AbstractFactory", "{425EF8B7-5C40-4101-BA6B-9C0C2B925CDA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MaterialProducer", "MaterialProducer\MaterialProducer.csproj", "{08202B31-5533-4DC7-A15C-D4A9DAB4600C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -43,6 +47,10 @@ Global
 		{FE577832-7699-4C19-8780-FD0C5405F5A0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FE577832-7699-4C19-8780-FD0C5405F5A0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FE577832-7699-4C19-8780-FD0C5405F5A0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{08202B31-5533-4DC7-A15C-D4A9DAB4600C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{08202B31-5533-4DC7-A15C-D4A9DAB4600C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{08202B31-5533-4DC7-A15C-D4A9DAB4600C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{08202B31-5533-4DC7-A15C-D4A9DAB4600C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -53,6 +61,7 @@ Global
 		{4ABC813D-1B44-4243-95CB-A1FB58B98899} = {857F3A02-9DED-4A34-A6D2-12D0816DAA8F}
 		{761AC2C0-54DF-4985-8968-872B57B58076} = {857F3A02-9DED-4A34-A6D2-12D0816DAA8F}
 		{FE577832-7699-4C19-8780-FD0C5405F5A0} = {857F3A02-9DED-4A34-A6D2-12D0816DAA8F}
+		{08202B31-5533-4DC7-A15C-D4A9DAB4600C} = {425EF8B7-5C40-4101-BA6B-9C0C2B925CDA}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {6ECBAE14-1D5A-4AA5-BEB6-96047388628D}
