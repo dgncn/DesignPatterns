@@ -9,17 +9,21 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CarFactory", "CarFactory\Ca
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Singleton", "Singleton", "{857F3A02-9DED-4A34-A6D2-12D0816DAA8F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SingletonDP", "SingletonDP\SingletonDP.csproj", "{18DC3E3A-8C41-457F-BC18-31D3FA4052F1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SingletonDP", "SingletonDP\SingletonDP.csproj", "{18DC3E3A-8C41-457F-BC18-31D3FA4052F1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SingletonLock", "SingletonLock\SingletonLock.csproj", "{4ABC813D-1B44-4243-95CB-A1FB58B98899}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SingletonLock", "SingletonLock\SingletonLock.csproj", "{4ABC813D-1B44-4243-95CB-A1FB58B98899}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LockExample", "LockExample\LockExample.csproj", "{761AC2C0-54DF-4985-8968-872B57B58076}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LockExample", "LockExample\LockExample.csproj", "{761AC2C0-54DF-4985-8968-872B57B58076}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TicketLockExample", "TicketLockExample\TicketLockExample.csproj", "{FE577832-7699-4C19-8780-FD0C5405F5A0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TicketLockExample", "TicketLockExample\TicketLockExample.csproj", "{FE577832-7699-4C19-8780-FD0C5405F5A0}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "AbstractFactory", "AbstractFactory", "{425EF8B7-5C40-4101-BA6B-9C0C2B925CDA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MaterialProducer", "MaterialProducer\MaterialProducer.csproj", "{08202B31-5533-4DC7-A15C-D4A9DAB4600C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MaterialProducer", "MaterialProducer\MaterialProducer.csproj", "{08202B31-5533-4DC7-A15C-D4A9DAB4600C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Builder", "Builder", "{1BF6CB03-528F-48D1-88F6-687CB9EF4F5C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BuilderPattern", "BuilderPattern\BuilderPattern.csproj", "{11C51989-3A97-49EF-8F0F-6B2322EF5A91}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -51,6 +55,10 @@ Global
 		{08202B31-5533-4DC7-A15C-D4A9DAB4600C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{08202B31-5533-4DC7-A15C-D4A9DAB4600C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{08202B31-5533-4DC7-A15C-D4A9DAB4600C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{11C51989-3A97-49EF-8F0F-6B2322EF5A91}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{11C51989-3A97-49EF-8F0F-6B2322EF5A91}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{11C51989-3A97-49EF-8F0F-6B2322EF5A91}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{11C51989-3A97-49EF-8F0F-6B2322EF5A91}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -62,6 +70,7 @@ Global
 		{761AC2C0-54DF-4985-8968-872B57B58076} = {857F3A02-9DED-4A34-A6D2-12D0816DAA8F}
 		{FE577832-7699-4C19-8780-FD0C5405F5A0} = {857F3A02-9DED-4A34-A6D2-12D0816DAA8F}
 		{08202B31-5533-4DC7-A15C-D4A9DAB4600C} = {425EF8B7-5C40-4101-BA6B-9C0C2B925CDA}
+		{11C51989-3A97-49EF-8F0F-6B2322EF5A91} = {1BF6CB03-528F-48D1-88F6-687CB9EF4F5C}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {6ECBAE14-1D5A-4AA5-BEB6-96047388628D}
